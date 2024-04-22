@@ -8,13 +8,14 @@ body {
 
 /* Header Styles */
 header {
-    background-color: skyblue;
+    background-color: #0056b3;
     padding: 20px 0;
     text-align: center;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1000;
+    margin-bottom: 50px;
 }
 
 header h1 {
@@ -26,6 +27,7 @@ header h1 {
 
 /* Navigation Styles */
 nav {
+    margin-top: 80px;
     float: right;
 }
 
@@ -50,9 +52,28 @@ nav ul li a:hover {
 }
 /* Section Styles */
 section {
+    margin-top: 30px;
     padding: 60px;
     border-bottom: 20px solid hsl(0, 3%, 13%); 
 }
+/* styles.css */
+
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
 /* Footer Styles */
 footer {
     background-color: #333;

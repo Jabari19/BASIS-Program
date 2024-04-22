@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding-top: 80px;
-    background-color: softgray;
+    background-color: hsl(0, 33%, 96%);
 }
 
 /* Header Styles */
 header {
-    background-color: #333;
+    background-color: skyblue;
     padding: 20px 0;
     text-align: center;
     width: 100%;
@@ -19,7 +19,7 @@ header {
 
 header h1 {
     margin: 0;
-    color: #fff;
+    color: black;
     font-size: 28px;
     text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ nav ul li a:hover {
 /* Section Styles */
 section {
     padding: 60px;
-    border-bottom: 4px solid hsl(0, 3%, 13%); 
+    border-bottom: 20px solid hsl(0, 3%, 13%); 
 }
 /* Footer Styles */
 footer {

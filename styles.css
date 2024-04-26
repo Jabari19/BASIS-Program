@@ -20,11 +20,13 @@ header {
 
 header h1 {
     margin: 0;
-    color: black;
+    color: white;
     font-size: 28px;
     text-transform: uppercase;
 }
-
+header h2{
+    color:azure
+}
 /* Navigation Styles */
 nav {
     margin-top: 80px;

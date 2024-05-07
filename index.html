@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div>
     <header>
         <h1>Welcome to IS 390 Research</h1>
         <h2>By Robert Serembe</h2>
@@ -21,7 +22,8 @@
             <li><a href="#blog">Blog</a></li>
             <li><a href="#Lab">Lab Activity</a></li>
         </ul>
-    </nav>
+        </nav>
+        </div>
         <section id="journal">
         <h2>Module 1: Journal Entry</h2>
         <p>Cloud Computing relates to me and because of my course am doing. I want to understand more so that when I am done with BASIS Programme and luckily get a job, I would be able to use this research knowledge and apply it. There are so many things involved in cloud computing which make it more appealing for instances scalability, the cost involved, accessibility and innovation and also reliability. This combination that has attracted big organization to use it and grow their business is what amazes me. I will use the 7 pillars of literacy to in my research where I will involve surveys and interviews to get more info.
@@ -61,6 +63,18 @@
                 </ol></p>
                 to add up to what we discussed in class, plagiarism,copycat or anything that violates my research is not or will not be tolorated at all. It is important to be credible in the research and that is my goal.
             </p>
+            <h2>Module 5 Journal Entry</h2>
+            <p>I'm really thankful to Professor Richard Becker for sharing some helpful links about cloud computing security. They've been super useful for my research on cloud computing, especially the security side of things. <a>References<a>
+                AWS Training and Certification
+                <a href>Cloud Computing Training & Classes </a>  Training and Certification <a href>AWS (amazon.com)</a>
+                
+                CSA AI Safety Initiative
+                <a href>Home | CSA (cloudsecurityalliance.org)</a>
+                
+                Getting Started: An Introduction to the AWS Cloud
+                Get Started - Skill Builder.
+            I have a draft for my research and am going to use MLA format since its the one am familiar with.
+                </p>
         
     </section>
     
@@ -92,6 +106,8 @@
             </div>
             <h2>Module 4 Progress Report</h2>
             <p>My research journey is progressing really well. I have drafted an outline outlining how my project will be structured. Currently, I am focusing on understanding the concepts of plagiarism, fair use, and avoiding duplication of content. However, time management has been a challenge for me, as I have not yet visited the library to obtain the information I requested from the librarian. I realize that it's crucial for me to get organized and efficiently manage my time to ensure I don't fall behind.  </p>
+            <h2>Module 5: Progress Report</h2>
+            <p> I have completed the initial phase of my research outline, focusing on the topic of cloud computing security. I have drafted the first page of my research, which spans two pages in total. For formatting, I will adhere to MLA guidelines, and i have already prepared the necessary citation areas. Moving forward, my priority is to continue writing and expanding on my research. I aim to utilize the library extensively to access additional resources, ensuring a comprehensive exploration of my research topic.</p>
 
     </section>
     
@@ -100,7 +116,7 @@
         <h2>Module 1: Blog</h2>
         <h3>Cloud Computing</h3>
         <p>I'm going to talk about Cloud Computing and how it's changed the way organizations work. Lots of businesses and people want to make their computer systems safer and more efficient. So, what is Cloud Computing? It's when you use the internet to access services like storing data, running programs, and using servers. It's like renting computer stuff online instead of buying and managing it yourself.</p>
-        <!-- Your Blog content goes here -->
+    
     </section>
     <section id="Lab">
         <h2>Module 1: Lab Activity-Week 2</h2>
@@ -110,13 +126,30 @@
         <h2>Module 4: Lab Activity-Week 5</h2>
         We discussed about the ethics, about the credibility, copycat, fair share and we concluded that we should avoid those if we need our projects stand out. Being credible is good and it gains one respect and trust. . 
     </section>
-    <button onclick="scrollToTop()">Scroll to Top</button>
-    <button onclick="scrollToBottom()">Scroll to Bottom</button>
+    <div>
+        <button class="scroll-button" onclick="scrollUp()">Scroll Up</button>
+        <button class="scroll-button" onclick="scrollToBottom()">Scroll to Bottom</button>
+    </div>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function scrollUp() {
+            window.scrollBy({ top: -window.innerHeight, behavior: 'smooth' });
+        }
+
+        function scrollToBottom() {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        }
+    </script>
+   </body>
+        
 
     <footer>
         <p>&copy; 2024 IS 390 Research By Robert Serembe</p>
     </footer>
 
     <script src="script.js"></script>
-</body>
+
 </html>
